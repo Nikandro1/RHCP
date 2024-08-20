@@ -20,10 +20,6 @@ import { Otros } from './otros'
 function App() {
   return (
     <>
-      <Otros />
-    </>
-    /*
-    <>
       <Navegador/>
       <div className='carrusel-aside'>
         <Carrusel />
@@ -62,7 +58,6 @@ function App() {
       <MasInfo />
       <Footer />
     </>
-    */
   )
 }
 
