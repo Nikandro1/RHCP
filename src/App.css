@@ -1,0 +1,373 @@
+@font-face {
+  font-family: "antonio";
+  src: url(./fuente/AnthonyKiedisHandwritingV4-1z92.ttf);
+}
+/*
+.body{
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+}*/
+
+.navegador-Inicio{
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(9, 9, 10);
+  text-decoration: none;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+}
+
+
+.nav-items{
+  display: flex;
+  align-content: end;
+  padding: 20px;
+  list-style: none;
+  font-size: 15px;
+  gap: 30px;
+}
+.nav-items li{
+  font-family: "antonio";
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+.nav-items li a{
+  font-family: "antonio";
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+.nav-items a:hover{
+  color: gray;
+  transition: 0.3;
+  scale: 1.2;
+}
+.nav-items li:hover{
+  color: gray;
+  transition: 0.3;
+  scale: 1.2;
+}
+
+
+.img-nav{
+  width: 80px;
+  height: 70px;
+  display: flex;
+  margin-top: 5px;
+}
+.spoti{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 15px;
+  width: 300px;
+  height: 600px;
+}
+@media (max-width:480px){
+  .spoti{
+    display: flex;
+    width: 50px;
+    height: 300px;  
+    justify-content: center;
+  }
+  .nav-items{
+    display: inline;
+    padding-top: 100px;
+    justify-content: center;
+  }
+  .discos img{
+    width: 80%;
+    height: auto;
+    padding: 10px;
+  }
+  .discos div {
+    width: 100%; /* Ajusta el ancho al 100% */
+  }
+  .discos{
+  
+    justify-content: center;
+  }
+
+} 
+@media (max-width:820px){
+  .spoti{
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+  }
+}
+
+.carrusel-aside{
+  display: flex;
+  flex-wrap: wrap;
+  background: linear-gradient(
+    80deg,
+    rgba(194,71,55) 25%,
+    rgb(235, 164, 155) 75%
+  );
+
+  padding: 30px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  gap: 15px;
+}
+.carrusel{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 15px;
+  width: 900px;
+}
+.carrusel img{
+  height: 600px;
+}
+.carrusel h1{
+  font-family: "antonio";
+  font-weight: bolder;
+  background-color: rgba(255, 255, 255, 0.027);
+  color: rgb(0, 0, 0);
+  font-size: 50px;
+}
+.carrusel a{
+  font-size: 10px;
+  color: white;
+  text-decoration: solid ;
+}
+.carrusel h2{
+  color: white;
+  font-size: 20px;
+}
+.boton{
+  font-family: "antonio";
+  font-size: 15px;
+  font-weight: 900;
+  width: 150px;
+  color: rgb(255, 255, 255);
+  border-radius: 5px;
+  background-color: rgb(0, 0, 0);
+}
+.boton:hover{
+  box-shadow: 5px;
+}
+
+.foot img{
+  width: 50px;
+  
+}
+.foot{
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  background-color: rgb(46, 38, 38);
+  padding: 30px;
+}
+
+.cardInt{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 15px;
+  padding-top: 60px;
+  padding-bottom: 60px;  
+  background: linear-gradient(
+    80deg,
+    rgba(194,71,55) 25%,
+    rgb(235, 164, 155) 75%
+  );
+}
+.cardInt img{
+  width: 300px;
+  height: 300px;
+  border-radius: 50px;
+  border-color: gray;
+  flex-wrap: wrap ;
+  background: linear-gradient(
+    80deg,
+    rgba(194,71,55) 25%,
+    rgb(235, 164, 155) 75%
+  );
+}
+
+.cardInt img:hover{
+  width: 330px;
+  height: 330px;
+  transition: 1.5;
+}
+
+.integrantes{
+  font-family: "antonio";
+  background: linear-gradient(
+    80deg,
+    rgb(86, 97, 255) 25%,
+    rgb(110, 223, 223) 75%
+  );
+}
+.integrantes h1{
+  display: flex;
+  justify-content: center;
+  color:white;
+  background: linear-gradient(
+    80deg,
+    rgb(165, 165, 165) 25%,
+    rgb(0, 0, 0) 75%
+  );
+  margin: 0px;
+}
+
+
+
+.discos{
+  display: flex;
+  align-content: center ;
+  justify-content: center;
+  gap: 30px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background: linear-gradient(
+    80deg,
+    rgb(86, 97, 255) 25%,
+    rgb(110, 223, 223) 75%
+  );
+}
+.discos img{
+  width: 330px;
+  height: 330px;
+
+}
+.discos img:hover{
+  width: 350px;
+  height: 350px;
+  padding: 10px;
+  cursor: pointer;
+}
+.todosDiscos{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.tituloDiscos{
+  display: flex;
+  justify-content: center;
+  font-family: "antonio";
+  background: linear-gradient(
+    80deg,
+    rgb(165, 165, 165) 25%,
+    rgb(0, 0, 0) 75%
+  );
+  color: white;
+  padding: 10px;
+  height: 100%;
+  margin: 0px;
+} 
+.contDisco{
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgba(228, 84, 36, 0.5);
+}
+
+.contDisco img{
+  width: 220px;
+  height: 220px;
+  padding: 10px;
+  box-shadow: 5px;
+
+}
+.tapaDisco{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 170px;
+  padding: 10px;
+  box-shadow: 2px 2px 10px #180808;
+}
+.contDisco h1{
+  font-family: 'antonio';
+  font-size: 40px;
+  font-weight: bold;
+  margin: 10px;
+  padding-top: 15px;
+}
+
+.tablaTemas{
+  display: flex;
+  flex-wrap: wrap;
+  font-family: "antonio";
+}
+
+.tablaTemas thead{
+  background-color: rgb(54, 54, 54);
+  color: white;
+  font-weight: bolder;
+}
+.tablaTemas tbody{
+  background-color: rgb(97, 16, 16);
+  color: white;
+}
+.tablaTemas tr:hover{
+  color: white;
+  background-color: rgb(54, 54, 54);
+}
+.tablaTemas p{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.otrosInte img{
+  display: flex;
+  max-width: 90%;
+  height: 200px;
+}
+.h1Info h1{
+  font-family: "antonio";
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(
+    80deg,
+    rgb(86, 97, 255) 25%,
+    rgb(110, 223, 223) 75%
+  );
+  margin: 0px;
+}
+.shows img{
+  display: flex;
+  max-width: 90%;
+  height: 200px;
+}
+.masInfo{
+  background: linear-gradient(
+    80deg,
+    rgb(86, 97, 255) 25%,
+    rgb(110, 223, 223) 75%
+  ); 
+  width: 100%; 
+}
+.containerInfo{
+  background: linear-gradient(
+    80deg,
+    rgb(86, 97, 255) 25%,
+    rgb(110, 223, 223) 75%
+  );
+  margin: 0;
+}
+
+.foot{
+  background: linear-gradient(
+    80deg,
+    rgb(119, 116, 116) 25%,
+    rgb(19, 18, 18) 75%
+  );
+}
+
+.foot a img:hover{
+  scale: 1.2;
+  box-shadow: 5px #7c1616;
+}
