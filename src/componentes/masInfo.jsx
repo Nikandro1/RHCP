@@ -15,14 +15,14 @@ export function MasInfo() {
                         <Col md={6}>
                             <div className="otrosInte">
                                 <Link to={"/otros"}>
-                                    <img src="../src/imagenes/otrosIntegrantes.jpg" alt="" />
+                                    <img src="/RHCP/src/imagenes/otrosIntegrantes.jpg" alt="" />
                                     <p>Un poco de la historia de otros miembros que pasaron por la banda californiana.</p>
                                 </Link>
                             </div>
                         </Col>
                         <Col md={6}>
                             <div className="shows">
-                                <img src="../src/imagenes/dvd.jpg" alt="Card image" className="otrosI" />
+                                <img src="/RHCP/src/imagenes/dvd.jpg" alt="Card image" className="otrosI" />
                                 <p>Repaso de los dvds y show más importantes de los Red Hot.</p>
                             </div>
                         </Col>

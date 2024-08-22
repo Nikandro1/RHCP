@@ -16,19 +16,19 @@ export function Artista() {
             <Container>
                 <Row>
                     <Col xs={4} md={3}>
-                        <Image src="../src/imagenes/a-Antony.jpg" thumbnail />
+                        <Image src="/RHCP/src/imagenes/a-Antony.jpg" thumbnail />
                         <h1>ANTONY</h1>
                     </Col>
                     <Col xs={4} md={3}>
-                        <Image src="../src/imagenes/a-Chad.jpg" thumbnail />
+                        <Image src="/RHCP/src/imagenes/a-Chad.jpg" thumbnail />
                         <h1>ANTONY</h1>
                     </Col>
                     <Col xs={4} md={3}>
-                        <Image src="../src/imagenes/a-Flea.jpg" thumbnail />
+                        <Image src="/RHCP/src/imagenes/a-Flea.jpg" thumbnail />
                         <h1>ANTONY</h1>
                     </Col>
                     <Col xs={4} md={3}>
-                        <Image src="../src/imagenes/a-Frusciante.jpg" thumbnail />
+                        <Image src="/RHCP/src/imagenes/a-Frusciante.jpg" thumbnail />
                         <h1>ANTONY</h1>
                     </Col>
                 </Row>

@@ -1,7 +1,7 @@
-import { useEffect, useState } from "react";
+
 import { Footer } from "./footer"
 import { Navegador } from "./navegador"
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+
 export function DiscoEsp(props) {
 
     

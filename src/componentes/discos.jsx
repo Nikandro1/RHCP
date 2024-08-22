@@ -44,7 +44,7 @@ export function Disco(props) {
         return (
             <>
                 <img className='tapaDisco'
-                    src={`../src/imagenes/${props.disco}.jpg`}
+                    src={`/RHCP/src/imagenes/${props.disco}.jpg`}
                     alt={props.disco}
                     title={data.nombre}
                     onClick={() => setMostrarInfo(true)}

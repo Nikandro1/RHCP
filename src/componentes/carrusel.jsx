@@ -6,7 +6,7 @@ export function Carrusel() {
             <Carousel.Item>
                 <img
                     className="d-block w-100"
-                    src='../src/imagenes/rhcp21.jpg'
+                    src='/RHCP/src/imagenes/rhcp21.jpg'
                     alt="Banda 13"
                 />
                 <Carousel.Caption>
@@ -17,7 +17,7 @@ export function Carrusel() {
             <Carousel.Item>
                 <img
                     className="d-block w-100"
-                    src="../src/imagenes/banda15.jpg"
+                    src="/RHCP/src/imagenes/banda15.jpg"
                     alt="Second slide"
                 />
                 <Carousel.Caption>
@@ -28,7 +28,7 @@ export function Carrusel() {
             <Carousel.Item>
                 <img
                     className="d-block w-100"
-                    src="../src/imagenes/banda14.jpg"
+                    src="/RHCP/src/imagenes/banda14.jpg"
                     alt="Third slide"
                 />
                 <Carousel.Caption>

@@ -5,7 +5,7 @@ export function Navegador() {
         <div>
             <section>
                 <nav className="navegador-Inicio">
-                    <img className='img-nav' src="../src/imagenes/logo.png" alt="" />
+                    <img className='img-nav' src="/RHCP/src/imagenes/logo.png" alt="" />
                     <ul className='nav-items'>
                         <li><a href="">INTEGRANTES</a></li>
                         <li><a href="#integrantes">DISCOS</a></li>
