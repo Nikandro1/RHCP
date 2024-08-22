@@ -1,9 +1,5 @@
-import { BrowserRouter as Router, Route, HashRouter } from 'react-router-dom';
-import { Link } from 'react-router-dom';
-import { DiscoEsp } from './discoEl.jsx';
+import React from "react";
 import { useState, useEffect } from "react";
-import { Footer } from "./footer";
-import { Navegador } from "./navegador";
 import { Container, Col, Row } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css'
 

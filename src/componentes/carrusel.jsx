@@ -1,5 +1,6 @@
+import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
-import Button from 'react-bootstrap/Button';
+
 export function Carrusel() {
     return (
         <Carousel className= 'carrusel' data-bs-theme="dark">

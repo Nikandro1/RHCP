@@ -1,7 +1,6 @@
 import "../App.css"
-import Card from 'react-bootstrap/Card';
+import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import { Otros } from "../otros";
 import { Link } from "react-router-dom";
 
 
